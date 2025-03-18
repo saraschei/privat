@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="pictures">
+    <file>beamStartPic.jpg</file>
+    <file>columnStartPic.jpg</file>
+    <file>shellStartPic.jpg</file>
+  </qresource>
+</RCC>

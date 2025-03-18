@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="pictures">
+    <file>shellPic.jpg</file>
+  </qresource>
+</RCC>

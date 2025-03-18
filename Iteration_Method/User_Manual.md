@@ -1,0 +1,89 @@
+# Iteration-Method
+
+Beam:
+- Forces
+	- N: Axial Force
+	- M: Moment
+- Geometry
+	- b: width
+	- h: height
+	- c1: distance from bottom edge to bottom reinforcement center
+	- c2: distance from top edge to top reinforcement center
+- Iteration
+	- n: number of concrete layers
+	- β: convergence criterium
+ 	- max it: maximum iteration number
+- Reinforcement
+	- Asx1: bottom reinforcement Area
+	- Asx2: top reinforcement Area
+	- Esx1: Young's Modulus of bottom reinforcement
+	- Esx2: Young's Modulus of top reinforcement 
+	- fyk: reinforcement yield strength
+	- γs: partial safety factor for reinforcement
+	- εud: strain limit for the reinforcement
+- Concrete
+	- fck: concrete compressive yield strength
+	- γc: partial safety factor for concrete
+
+
+Shell:
+- Forces
+	- Nx: Axial Force in x-direction
+	- Ny: Axial Force in y-direction
+	- Nxy: In-Plane shear load
+	- Mx: Moment in x-direction
+	- My: Moment in y-direction
+	- Mxy: Torsional Moment
+- Geometry
+	- h: height
+	- c1: distance from bottom edge to bottom reinforcement center
+	- c2: distance from top edge to top reinforcement center
+- Iteration
+	- n: number of concrete layers
+	- β: convergence criterium
+ 	- max it: maximum iteration number
+- Reinforcement
+	- Asx1: bottom reinforcement Area in x-direction
+	- Asx2: top reinforcement Area in x-direction
+	- Asy1: bottom reinforcement Area in y-direction
+	- Asy2: top reinforcement Area in y-direction
+	- Esx1: Young's Modulus of bottom reinforcement in x-direction 
+	- Esx2: Young's Modulus of top reinforcement in x-direction 
+	- Esy1: Young's Modulus of bottom reinforcement in y-direction 
+	- Esy2: Young's Modulus of top reinforcement in y-direction
+	- fyk: reinforcement yield strength
+	- γs: partial safety factor for reinforcement
+	- εud: strain limit for the reinforcement
+- Concrete
+	- fck: concrete compressive yield strength
+	- γc: partial safety factor for concrete
+	- v: poisson's ratio for concrete
+
+Column:
+- Forces
+	- N: Axial Force 
+	- Mx: Moment about x-axis
+	- My: Moment about y-axis
+- Geometry
+	- b: width
+	- h: height
+	- cx1: distance from bottom edge to bottom reinforcement center
+	- cx2: distance from top edge to top reinforcement center
+	- cy1: distance from right edge to right reinforcement center
+	- cy2: distance from left edge to left reinforcement center
+- Iteration
+	- n: number of concrete layers
+	- β: convergence criterium
+ 	- max it: maximum iteration number
+- Reinforcement
+	- Asx1: bottom reinforcement Area
+	- Asx2: top reinforcement Area
+	- Asy1: right reinforcement Area
+	- Asy2: left reinforcement Area
+	- Es: Young's Modulus of reinforcement
+	- fyk: reinforcement yield strength
+	- γs: partial safety factor for reinforcement
+	- εud: strain limit for the reinforcement
+- Concrete
+	- fck: concrete compressive yield strength
+	- γc: partial safety factor for concrete
